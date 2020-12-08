@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UIKit
 
 @main
 struct UdderApp: App {
@@ -13,5 +14,11 @@ struct UdderApp: App {
         WindowGroup {
             ContentView()
         }
+    }
+}
+class ViewController: UIViewController {
+    
+    override func viewWillAppear(_ animated: Bool) {
+        //
     }
 }
