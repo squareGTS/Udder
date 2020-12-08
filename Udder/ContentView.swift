@@ -16,6 +16,11 @@ struct ContentView: View {
                 .foregroundColor(.gray)
                 .padding()
             Text("Fresh Milk, On Demand.")
+            Image("Milk")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 250, height: 250, alignment: .center)
+                
         }
     }
 }
