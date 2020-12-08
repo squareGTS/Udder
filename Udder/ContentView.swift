@@ -20,7 +20,9 @@ struct ContentView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 250, height: 250, alignment: .center)
-                
+                .overlay(Text("Milk")
+                            .foregroundColor(.red)
+                            .fontWeight(.bold))
         }
     }
 }
